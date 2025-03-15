@@ -16,3 +16,102 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 40px;
+  border-radius: 8px;
+    background: #4E75FF;
+    padding: 8px 16px;
+    color: #FFF;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1.5;
+      /* 150% */
+      letter-spacing: 0.03em;
+      border: none;
+      
+}
+button:disabled{
+  
+    background: #CFCFCF;
+    color: #989898;
+    
+}
+
+button:hover{
+  background: #6C8CFF;
+}
+
+input{
+  width: 240px;
+    height: 22px;
+    padding: 8px 16px;
+    border-radius: 4px;
+      border: 1px solid #808080;;
+      color: #2E2F42;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.03em;
+        outline: none;
+}
+
+input:disabled{
+  color: #808080;
+  border-color: #808080;
+}
+
+input:active{
+  border-color: #4E75FF;
+  color: #000;
+}
+
+input:hover{
+  border-color: #000;
+}
+
+.data-start{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+.timer{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.value{
+  color: #2E2F42;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.03em;
+  }
+
+  .label{
+    color: #2E2F42;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.5;
+      /* 150% */
+  }
+  .field{
+    display: flex;
+    flex-direction: column;
+  }
+
