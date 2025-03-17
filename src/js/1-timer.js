@@ -93,6 +93,14 @@ function updateTimer({ days, hours, minutes, seconds }) {
   refs.seconds.textContent = addLeadingZero(seconds);
 }
 
+// function addLeadingZero(value) {
+//   return String(value).padStart(2, '0');
+// }
+
 function addLeadingZero(value) {
-  return String(value).padStart(2, '0'); 
+  if (value < 10) {
+    return "0" + value;
+  } else {
+    return String(value);
+  }
 }
